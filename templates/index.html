@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!--
+	Telephasic by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>OIS Buddy Bulletin</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header" class="container">
+
+						<!-- Logo -->
+							<h1 id="logo"><a href="">OIS Buddy Bulletin</a></h1>
+
+						<!-- Nav -->
+
+					</div>
+
+					<!-- Hero -->
+						<section id="hero" class="container">
+							<header>
+								<!-- <br /> is a line break -->
+								<h2>Get the latest news <br/></h2>
+							</header>
+							<p>Read the latest release <br/></p>
+							<ul class="actions">
+								<li><a href="{{ url_for('issue1') }}" class="button">Latest Release</a></li>
+							</ul>
+						</section>
+
+				</div>
+
+
+			<!-- Top issue -->
+				<div id="promo-wrapper">
+					<section id="promo">
+						<div class="image-wrapper first">
+							<img id="topnewspic" src="static/assets/dreamfest.png" alt="" />
+						</div>
+						<header>
+							<h2>Top Article: Winter Highlights</h2>
+						</header>
+						<p></p>
+							<a href="{{ url_for('issue1') }}" class="button">Read</a>
+					</section>
+				</div>
+
+			<!-- Features 2 -->
+				<div class="wrapper">
+					<section class="container">
+						<header class="major">
+							<h2>Read all of the articles here:</h2>
+							<p>The latest articles are on the top, scroll for the entire archive</p>
+						</header>
+						<div class="row features">
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper first">
+									<a href="" class="image featured"><img src="static/assets/pic03.jpg" alt="" /></a>
+								</div>
+								<p id="issues">New Articles coming soon!</p>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a href="" class="image featured"><img src="static/assets/pic04.jpg" alt="" /></a>
+								</div>
+								<p id="issues">New Articles coming soon!</p>
+							</section>
+							<section class="coverimg">
+								<div>
+									<a href="{{ url_for('issue1') }}" class="image featured"><img src="static/assets/dreamfest.png" alt="" /></a>
+								</div>
+								<p id="issues">Article 1: Winter Highlights!</p>
+							</section>
+						</div>
+					</section>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<div id="footer" class="container">
+						<header class="major">
+							<h2>Stay tuned for more articles</h2>
+							<p>Feel free to reach out to aarav.bendre@oberoi-is.net for queries</p>
+						</header>
+						<div class="row">
+							
+							<section class="col-6 col-12-narrower">
+								<!--
+								<form method="post" action="#">
+									<div class="row gtr-50">
+										<div class="col-6 col-12-mobile">
+											<input name="name" placeholder="Name" type="text" />
+										</div>
+										<div class="col-6 col-12-mobile">
+											<input name="email" placeholder="Email" type="text" />
+										</div>
+										<div class="col-12">
+											<textarea name="message" placeholder="Message"></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" /></li>
+												<li><input type="reset" value="Clear form" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+								-->
+							</section>
+							<section class="col-6 col-12-narrower">
+								<!--
+								<div class="row gtr-0">
+									<ul class="divided icons col-6 col-12-mobile">
+										<li class="icon brands fa-twitter"><a href="#"><span class="extra">twitter.com/</span>untitled</a></li>
+										<li class="icon brands fa-facebook-f"><a href="#"><span class="extra">facebook.com/</span>untitled</a></li>
+										<li class="icon brands fa-dribbble"><a href="#"><span class="extra">dribbble.com/</span>untitled</a></li>
+									</ul>
+									<ul class="divided icons col-6 col-12-mobile">
+										<li class="icon brands fa-instagram"><a href="#"><span class="extra">instagram.com/</span>untitled</a></li>
+										<li class="icon brands fa-youtube"><a href="#"><span class="extra">youtube.com/</span>untitled</a></li>
+										<li class="icon brands fa-pinterest"><a href="#"><span class="extra">pinterest.com/</span>untitled</a></li>
+									</ul>
+								</div>
+								-->
+							</section>
+						</div>
+					</div>
+					<div id="copyright" class="container">
+						<ul class="menu">
+							<li>&copy; OIS Buddy Bulletin. All rights reserved.</li>
+						</ul>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/jquery.dropotron.min.js"></script>
+			<script src="static/js/browser.min.js"></script>
+			<script src="static/js/breakpoints.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>
+
+	</body>
+</html>
